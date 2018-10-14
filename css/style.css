@@ -1,0 +1,220 @@
+--- ---
+/* common css settings */
+
+body {
+    background-color: white !important;
+}
+
+a {
+    font-size: 2.5rem;
+    color: lightslategray !important;
+
+}
+
+
+h1 {
+
+    color: lightslategray !important;
+
+}
+
+footer {
+
+    background-color: rgb(242, 240, 240);
+    position: relative;
+    height: 50px;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-top-color: #34323c;
+    border-top-style: solid;
+    border-top-width: 0.5px;
+}
+
+.section-line {
+    border-top-color: #34323c;
+    border-top-style: solid;
+    border-top-width: 0.5px;
+}
+
+.music-line {
+    border-top-color: #34323c;
+    border-top-style: solid;
+    border-top-width: 0.5px;
+    margin-left: 1.5%;
+}
+
+
+.logo {
+    width: 70%;
+    margin-left: 10%;
+}
+
+.navbar {
+    min-height: 90px !important;
+    border-color: white !important;
+    margin-bottom: 0px !important;
+    margin-top: 5px;
+}
+
+.navbar-inverse {
+    background-color: white !important;
+}
+
+.nav-contact {
+    margin: 10% 0 0 0;
+}
+
+
+.nav li a {
+
+    border-left: 0.5px dotted black;
+    border-right: 0.5px dotted black;
+    width: 180px;
+    text-align: center;
+    margin: 9% 0 0 0;
+
+}
+
+.nav li:hover a {
+    color: darkgrey !important;
+
+}
+
+.line {
+    border-bottom: 0.5px dotted black;
+    width: 1210px;
+    margin-top: 7%;
+}
+
+
+#index-image {
+    background: url("../img/rs-bigband.jpg") no-repeat;
+    background-size: cover;
+    background-position: 40% 0%;
+    padding: 200px 0 280px 0;
+    position: relative;
+}
+
+#index-image:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #969696, #34323c);
+    opacity: 0.8;
+}
+
+.right {
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    background-color: rgb(242, 240, 240);
+}
+
+.left {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.about-text {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.section-title h1 {
+    font-size: 40px;
+    margin-top: 0px !important;
+    margin-bottom: 50px;
+}
+
+.picture {
+    width: 100%;
+
+}
+
+.text-muted {
+
+    margin-left: 40%;
+}
+
+/* CONTACT FORM */
+
+#contact h2 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#contact h1,
+h2,
+h3 {
+    margin: 0 0 35px 0;
+    font-family: 'Patua One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+#contact p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+#contact a {
+    color: #26a5d3;
+}
+
+#contact a:hover,
+a:focus {
+    text-decoration: none;
+    color: #26a5d3;
+}
+
+#contact {
+    background: #6d6b6b;
+    color: #f4f4f4;
+    padding-bottom: 80px;
+}
+
+
+#contact textarea.form-control {
+    height: 100px;
+}
+
+#contact .form-group {
+    width: 80%;
+
+}
+
+.audio {
+    margin-top: 5%;
+
+}
+
+.music {
+    padding-left: 5%;
+
+}
+
+.music-pos {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 40%;
+
+}
+
+.title {
+    margin-top: 7%;
+}
+
+.title-section {
+    padding-left:3.6%;
+    font-size: 70px;
+}
